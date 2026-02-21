@@ -3,7 +3,7 @@
 Minimal project containing only the dual-actuator reaction-wheel pendulum controller and its XML model.
 
 ## Files
-- `wheel+base.py`: Stabilizing controller for wheel motor + base motor.
+- `wheel_and_base.py`: Stabilizing controller for wheel motor + base motor.
 - `reactionwheel_basemotor.xml`: MuJoCo model with realistic lighting/background and actuator setup.
 - `requirements.txt`: Python dependencies.
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Run
 ```bash
-python "wheel+base.py"
+python wheel_and_base.py
 ```
 
 The script starts with a small tilt (~8 deg) and prints controller telemetry once per second.
