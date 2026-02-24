@@ -1,4 +1,4 @@
-# MuJoCo Wheel + Base Controller
+# Inverted Pendulum with Reaction wheel
 
 Minimal project containing only the dual-actuator reaction-wheel pendulum controller and its XML model.
 
